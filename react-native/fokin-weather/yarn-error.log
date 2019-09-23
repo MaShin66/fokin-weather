@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarnpkg add expo-location@~6.0.0
+  /usr/local/bin/node /usr/local/bin/yarnpkg add expo-linear-gradient@~6.0.0
 
 PATH: 
   /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/ShinHotae/Library/Android/sdk/tools:/Users/ShinHotae/Library/Android/sdk/platform-tools:/Users/ShinHotae/Library/Android/sdk/tools:/Users/ShinHotae/Library/Android/sdk/platform-tools
@@ -27,6 +27,7 @@ npm manifest:
       "eject": "expo eject"
     },
     "dependencies": {
+      "axios": "^0.19.0",
       "expo": "^34.0.1",
       "react": "16.8.3",
       "react-dom": "^16.8.6",
